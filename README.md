@@ -23,3 +23,10 @@ Step 2: Data Cleaning on spark dataframes:
   Step 6: We created a table that shows all found topics and their top 10 significant words. the topics that are similar are shown in a single row.
 
 Results found: LDA and LSA topics may overlap, but each of them can find new unique topics, by applying both and finding similarity between their topics, we can extract more useful data from texts.
+
+__________________________________________
+Twitter Keywors used: #suicidal
+
+How To Run Reza_Program_1.py:
+	export PYSPARK_PYTHON=python3
+	spark-submit Reza_Program_1.py
